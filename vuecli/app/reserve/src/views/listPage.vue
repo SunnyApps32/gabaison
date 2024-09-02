@@ -135,7 +135,7 @@ export default {
 
         this.reservations = []
         this.isLoading = true;
-        const response = await fetch('https://sunapp.jp/sunappForReserve/api/getReservations.php', {
+        const response = await fetch('', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

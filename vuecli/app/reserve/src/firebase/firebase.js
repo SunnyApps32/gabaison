@@ -4,13 +4,19 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: "",
-  measurementId: ""
+ 
+  apiKey: "AIzaSyBGg9ott0si4ZcfAzSvwULbgoHq4lsL60Y",
+ 
+  authDomain: "gabaison.firebaseapp.com",
+ 
+  projectId: "gabaison",
+ 
+  storageBucket: "gabaison.appspot.com",
+ 
+  messagingSenderId: "699202983308",
+ 
+  appId: "1:699202983308:web:cff774f3d95d6d34e232a9"
+ 
 };
 
 
