@@ -5,7 +5,6 @@ import HomePage from "../views/HomePage.vue";
 import QRCodePage from "../views/QRcodePage.vue";
 import infoPage from "../views/InfoPage.vue";
 import LoginView from "../views/LoginPage.vue";
-import BingoPage from "../views/BingoPage.vue";
 import CouponePage from "../views/couponPage.vue";
 import TeamSelectPage from "../views/TeamSelectPage.vue";
 import PlayerGalleryPage from "../views/PlayerGalleryPage.vue";
@@ -49,12 +48,6 @@ const routes = [
         name: "infoPage",
         component: infoPage,
         meta: { title: "ユーザ情報", requiresAuth: true },
-      },
-      {
-        path: "/bingo",
-        name: "bingo",
-        component: BingoPage,
-        meta: { title: "bingo", requiresAuth: true },
       },
       {
         path: "/teamselect",
